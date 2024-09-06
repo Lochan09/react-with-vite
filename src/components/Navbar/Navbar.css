@@ -1,0 +1,43 @@
+.nav-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #F08080; /* Salmon color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 100;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .nav-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .nav-container .nav-item {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-container .nav-item:hover {
+    background-color: #FF6347; /* Tomato color */
+  }
+  
+  .nav-container .nav-item:last-child {
+    border-bottom: none;
+  }
+  
+  .nav-container .nav-item.active {
+    background-color: #FF6347; /* Tomato color */
+  }

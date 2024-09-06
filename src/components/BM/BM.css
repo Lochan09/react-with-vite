@@ -1,0 +1,61 @@
+.bridesmaids-section {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.bridesmaids-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bridesmaids-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bridesmaid-card {
+  margin: 20px;
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bridesmaid-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bridesmaid-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.bridesmaid-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .bridesmaid-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .bridesmaid-card {
+    width: 100%;
+  }
+}
